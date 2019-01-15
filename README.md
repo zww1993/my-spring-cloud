@@ -10,4 +10,4 @@ springboot + eureka + feign + zuul + hystrix
 
 4.启动gateway
 
-5.浏览器打开http://localhost:8888/client/helloWorld
+5.浏览器访问http://localhost:8888/client/helloWorld
