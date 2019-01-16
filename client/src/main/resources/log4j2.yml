@@ -6,7 +6,7 @@ Configuration:
     - name: log.level.console
       value: trace
     - name: log.path
-      value: /data/log/my-springboot
+      value: /data/log/client
     - name: project.name
       value: my-springboot
 
