@@ -1,6 +1,11 @@
 spring:
   application:
     name: server
+  zipkin:
+    base-url: http://localhost:7000
+  sleuth:
+    sampler:
+      percentage: 1.0
 server:
   port: 8000
 eureka:
