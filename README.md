@@ -1,6 +1,6 @@
 # my-spring-cloud
 
-springboot + eureka + feign + zuul + hystrix
+springboot + eureka + feign + zuul + hystrix + zipkin
 
 1.启动server-discovery
 
