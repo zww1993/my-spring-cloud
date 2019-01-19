@@ -21,7 +21,7 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 
 
 ## 从零开始my-spring-cloud
-#### 创建注册中心
+### 创建注册中心
 
 1.创建一个springboot项目
 
