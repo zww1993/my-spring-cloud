@@ -2,6 +2,8 @@
 
 springboot + eureka + feign + zuul + hystrix + zipkin
 
+
+# 项目启动
 1.启动server-discovery
 
 2.启动zipkin-server
@@ -17,6 +19,8 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 7.浏览器访问zipkin http://localhost:7000
 
 8.浏览器访问http://localhost:8888/client/helloWorld
+
+
 
 # 从零开始my-spring-cloud
 ## 注册中心
