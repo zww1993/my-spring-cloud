@@ -1,6 +1,6 @@
 # my-spring-cloud
 
-springboot + eureka + feign + zuul + hystrix + zipkin
+springboot + eureka + feign + zuul + Ribbon + hystrix + zipkin
 
 ## 目录
 * [项目启动]
