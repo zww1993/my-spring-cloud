@@ -20,9 +20,8 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 8.浏览器访问http://localhost:8888/client/helloWorld
 
 ## 从零开始my-spring-cloud
-### 创建注册中心
-
-1.创建一个springboot项目
+### 创建注册中心 server-discovery
+1.创建springboot项目
 
 2.pom文件导入eureka
 ```xml
@@ -63,3 +62,9 @@ public class ServerDiscoveryApplication {
 5.启动项目
 
 6.浏览器访问http://localhost:9000
+
+### 远程服务接口 server-api
+1.创建一个maven项目
+
+2.pom文件导入Feign,hystrix
+
