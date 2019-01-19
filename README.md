@@ -18,8 +18,8 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 
 8.浏览器访问http://localhost:8888/client/helloWorld
 
-#从零开始my-spring-cloud
-##注册中心
+# 从零开始my-spring-cloud
+## 注册中心
 
 1.创建一个springboot项目
 
