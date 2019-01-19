@@ -2,9 +2,9 @@
 
 springboot + eureka + feign + zuul + hystrix + zipkin
 
-* [项目启动]
+* [Usage]
 
-## 项目启动
+## Usage
 1.启动server-discovery
 
 2.启动zipkin-server
