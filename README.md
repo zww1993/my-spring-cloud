@@ -25,10 +25,10 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 
 2.pom文件导入eureka
 ```xml
-    <dependency>
-       <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-    </dependency>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+</dependency>
 ```
 
 3.添加application.yml配置文件
