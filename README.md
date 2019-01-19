@@ -242,6 +242,5 @@ public class HelloWorldServiceFallBack implements HelloWorldService {
     }
 }
 ```
-## Usage
 
 [项目启动]: #项目启动
