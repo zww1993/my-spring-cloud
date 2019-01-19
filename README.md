@@ -5,11 +5,11 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 ## 目录
 * [项目启动]
 * [从零开始my-spring-cloud]
-    + [创建注册中心 server-discovery]
+    + [创建注册中心server-discovery]
 
 [项目启动]: #项目启动
 [从零开始my-spring-cloud]: #从零开始my-spring-cloud
-[创建注册中心 server-discovery]: #创建注册中心 server-discovery
+[创建注册中心 server-discovery]: #创建注册中心server-discovery
 
 ## 项目启动
 1.启动server-discovery
@@ -29,7 +29,7 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 8.浏览器访问http://localhost:8888/client/helloWorld
 
 ## 从零开始my-spring-cloud
-### 创建注册中心 server-discovery
+### 创建注册中心server-discovery
 1.创建springboot项目
 
 2.pom文件导入eureka
