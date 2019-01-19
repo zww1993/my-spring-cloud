@@ -4,12 +4,14 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 
 ## 目录
 * [项目启动]
-* [从零开始my-spring-cloud]
-    + [创建注册中心server-discovery]
+* [开始my-spring-cloud]
+    + [注册中心server-discovery]
+    + [远程服务接口server-api]
 
 [项目启动]: #项目启动
-[从零开始my-spring-cloud]: #从零开始my-spring-cloud
-[创建注册中心server-discovery]: #创建注册中心server-discovery
+[开始my-spring-cloud]: #开始my-spring-cloud
+[注册中心server-discovery]: #注册中心server-discovery
+[远程服务接口server-api]: #远程服务接口server-api
 
 ## 项目启动
 1.启动server-discovery
@@ -28,8 +30,8 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 
 8.浏览器访问http://localhost:8888/client/helloWorld
 
-## 从零开始my-spring-cloud
-### 创建注册中心server-discovery
+## 开始my-spring-cloud
+### 注册中心server-discovery
 1.创建springboot项目
 
 2.pom文件导入eureka
@@ -138,7 +140,7 @@ public class ServerDiscoveryApplication {
 
 6.浏览器访问http://localhost:9000
 
-### 远程服务接口 server-api
+### 远程服务接口server-api
 1.创建一个maven项目
 
 2.修改pom文件
