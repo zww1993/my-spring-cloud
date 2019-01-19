@@ -2,7 +2,7 @@
 
 springboot + eureka + feign + zuul + hystrix + zipkin
 
-* [Usage]
+* [项目启动]
 
 ## 项目启动
 1.启动server-discovery
@@ -244,4 +244,4 @@ public class HelloWorldServiceFallBack implements HelloWorldService {
 ```
 ## Usage
 
-[Usage]: #usage
+[项目启动]: #项目启动
