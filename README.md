@@ -4,7 +4,7 @@ springboot + eureka + feign + zuul + hystrix + zipkin
 
 * [Usage]
 
-## Usage
+## 项目启动
 1.启动server-discovery
 
 2.启动zipkin-server
@@ -242,3 +242,4 @@ public class HelloWorldServiceFallBack implements HelloWorldService {
     }
 }
 ```
+## Usage
