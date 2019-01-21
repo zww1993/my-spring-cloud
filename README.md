@@ -252,4 +252,8 @@ public class HelloWorldServiceFallBack implements HelloWorldService {
 }
 ```
 
+### 服务发布者server
+1.创建一个springboot项目
+
+2.修改pom文件引入eureka、zipkin、log4j2及相关组件
 
