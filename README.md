@@ -582,4 +582,4 @@ public class HelloWorldController {
 }
 ```
 
-#### *******到这里就实现了服务治理以及服务调用，依次启动注册中心server-discovery、服务提供者server、服务调用者client，然后使用浏览器调用浏览器访问 http://localhost:8001/helloWorld 即可。
+到这里就实现了服务治理以及服务调用，依次启动注册中心server-discovery、服务提供者server、服务调用者client，然后使用浏览器调用浏览器访问 http://localhost:8001/helloWorld 即可。
