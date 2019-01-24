@@ -17,7 +17,7 @@ springboot + eureka + feign + zuul + Ribbon + hystrix + zipkin
 [服务提供者server]: #服务提供者server
 [服务调用者client]: #服务调用者client
 
-## 项目启动
+## 启动项目
 1.启动server-discovery
 
 2.启动zipkin-server
