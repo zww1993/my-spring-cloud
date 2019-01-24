@@ -9,6 +9,8 @@ springboot + eureka + feign + zuul + Ribbon + hystrix + zipkin
     + [远程服务接口server-api]
     + [服务提供者server]
     + [服务调用者client]
+    + [服务网关gateway]
+    + [分布式跟踪系统zipkin-server]
 
 [启动项目]: #启动项目
 [开始搭建my-spring-cloud]: #开始搭建my-spring-cloud
@@ -16,6 +18,8 @@ springboot + eureka + feign + zuul + Ribbon + hystrix + zipkin
 [远程服务接口server-api]: #远程服务接口server-api
 [服务提供者server]: #服务提供者server
 [服务调用者client]: #服务调用者client
+[服务网关gateway]: #服务网关gateway
+[分布式跟踪系统zipkin-server]: #分布式跟踪系统zipkin-server
 
 ## 启动项目
 1.启动server-discovery
@@ -586,7 +590,7 @@ public class HelloWorldController {
 
 6.启动服务调用者client，然后使用浏览器调用浏览器访问 http://localhost:8001/helloWorld 即可实现远程服务调用。
 
-### 网关gateway
+### 服务网关gateway
 
 1.创建一个springboot项目
 
