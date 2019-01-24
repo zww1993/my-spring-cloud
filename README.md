@@ -3,14 +3,14 @@
 springboot + eureka + feign + zuul + Ribbon + hystrix + zipkin
 
 ## 目录
-* [项目启动]
+* [启动项目]
 * [开始搭建my-spring-cloud]
     + [注册中心server-discovery]
     + [远程服务接口server-api]
     + [服务提供者server]
     + [服务调用者client]
 
-[项目启动]: #项目启动
+[启动项目]: #启动项目
 [开始搭建my-spring-cloud]: #开始搭建my-spring-cloud
 [注册中心server-discovery]: #注册中心server-discovery
 [远程服务接口server-api]: #远程服务接口server-api
